@@ -3,7 +3,6 @@
 <h3>一覧</h3>
 <ul>
     {% for member in members %}
-    <li>{{member.name}}:{{member.email}}</li>
-    {% endfor %}
+    <li>{{member.name}}:{{}}</li>
 </ul>
 {% endblock %}
